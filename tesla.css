@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+}
+
+#small {
+    display: flex;
+    list-style: none;
+    position: fixed;
+}
+
+#small2 {
+    display: flex;
+    padding-left: 10rem;
+}
+
+#small3 {
+    display: flex;
+    padding-left: 6rem;
+}
+
+#big {
+    padding-top: 1rem;
+}
+
+li {
+    margin-left: 0.5rem;
+}
+
+#image img {
+    width: 100%;
+}
+
+#car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    position: fixed;
+    left: 10rem;
+}
+
+#car1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#car2 {
+    padding-top: 8rem;
+}
+
+#car button {
+    margin: 0 3rem;
+}
+
+#b1 {
+    border-radius: 30%;
+    padding: 0.4rem 2rem;
+    border-style: none;
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-size: 10px;
+}
+
+#b2 {
+    border-radius: 20%;
+    border: 1px solid;
+    padding: 0.4rem 2rem;
+    border-style: none;
+    font-size: 10PX;
+}
